@@ -6,6 +6,7 @@ var connect = require('connect');
 var app  = express();
 var port = process.env.PORT || 3000; // run on the port 3000
 
+// Set route here
 var routes = require('./routes/index');
 var users = require('./routes/users');
  
