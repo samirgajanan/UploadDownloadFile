@@ -16,7 +16,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
-//add comfoguration
+//add configuration
 app.use(express.static(__dirname + '/public'));
 app.use(connect.cookieParser());
 app.use(connect.logger('dev'));
